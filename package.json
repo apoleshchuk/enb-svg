@@ -1,0 +1,21 @@
+{
+  "name": "enb-svg",
+  "version": "0.1.0",
+  "description": "enb svg tech",
+  "main": "techs/svg.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoleshchuk/enb-svg.git"
+  },
+  "author": "Anton Poleshchuk <anton@poleshchuk.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apoleshchuk/enb-svg/issues"
+  },
+  "homepage": "https://github.com/apoleshchuk/enb-svg#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "enb": "^1.5.1"
+  }
+}
