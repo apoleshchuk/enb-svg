@@ -13,11 +13,9 @@ module.exports = require('enb/lib/build-flow').create()
 	.target('target', '?.svg')
 	.dependOn('bemdecl', '?.bemdecl.js')
 	.useFileList('svg')
-	// .defineOption('ignore')
 	.builder(function (files) {
 		let node = this.node;
 		let targetName = node.getTargetName();
-		// let ignore = this.getOption('ignore') || /^icon_font/i;
 
 		let $ = cheerio.load(document, {xmlMode: true});
 		let $resultSvg = $('svg');
