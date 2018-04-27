@@ -1,6 +1,6 @@
 {
   "name": "enb-svg",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "enb svg tech",
   "main": "techs/svg.js",
   "scripts": {},
