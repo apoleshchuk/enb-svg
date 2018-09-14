@@ -15,7 +15,12 @@
   },
   "homepage": "https://github.com/apoleshchuk/enb-svg#readme",
   "dependencies": {
-    "cheerio": "^0.22.0",
-    "enb": "^1.5.1"
+    "svg-mixer": "^2.3.3"
+  },
+  "devDependencies": {
+    "enb": "^2.0.0-0"
+  },
+  "peerDependencies": {
+    "enb": "^2.0.0-0"
   }
 }
